@@ -1,5 +1,6 @@
 import React from "react";
 import Blogs from "../Blogs/Blogs";
+import Contact from "../Contact/Contact";
 import Doctors from "../Doctors/Doctors";
 import FeaturedService from "../FeaturedService/FeaturedService";
 import Header from "../Header/Header";
@@ -17,6 +18,7 @@ const Home = () => {
       <Testimonial />
       <Blogs />
       <Doctors />
+      <Contact />
     </>
   );
 };
