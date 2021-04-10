@@ -1,0 +1,14 @@
+.service__card {
+  width: 350px;
+  margin: 20px 8px;
+  padding: 30px;
+  border-radius: 20px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.service__card:hover {
+  box-shadow: 3px 7px 22px 3px rgba(179, 175, 179, 0.7);
+}
+.service__card img {
+  margin-bottom: 20px;
+}

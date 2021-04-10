@@ -1,3 +1,5 @@
 :root {
   --gradient-color: linear-gradient(90deg, #19d3af, #0fcfeb);
+  --text-color-dark: #3a4256;
+  --text-color-green: #19d3b2;
 }

@@ -6,7 +6,7 @@ const HeaderMain = () => {
   return (
     <main
       style={{ height: "600px", width: "1232px" }}
-      className="row d-flex align-items-center"
+      className="row d-flex align-items-center main-heder"
     >
       <div className="col-md-4 offset-md-1">
         <h1 className="fw-bold">
