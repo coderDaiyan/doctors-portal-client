@@ -1,0 +1,11 @@
+.testimonial__card img {
+  height: 50px;
+}
+
+.testimonial__card {
+  width: 350px;
+  margin: 10px;
+  padding: 30px;
+  cursor: pointer;
+  box-shadow: 3px 7px 22px 3px rgba(179, 175, 179, 0.7);
+}

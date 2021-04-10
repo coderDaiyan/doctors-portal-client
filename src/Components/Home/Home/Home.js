@@ -3,6 +3,7 @@ import FeaturedService from "../FeaturedService/FeaturedService";
 import Header from "../Header/Header";
 import MakeAppoinment from "../MakeAppoinment/MakeAppoinment";
 import Services from "../Services/Services";
+import Testimonial from "../Testimonial/Testimonial";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Services />
       <FeaturedService />
       <MakeAppoinment />
+      <Testimonial />
     </>
   );
 };
