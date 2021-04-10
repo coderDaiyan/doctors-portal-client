@@ -1,0 +1,28 @@
+.featured__service {
+  height: 600px;
+  margin-right: 60px;
+  margin-left: 60px;
+  margin-top: 700px;
+  padding: 20px;
+}
+.detail {
+  font-size: 18px;
+  color: rgb(168, 168, 168);
+  line-height: 40px;
+}
+.learn-more-btn:focus {
+  box-shadow: 0 0 0 0.25rem #19d3ae70;
+}
+
+.img-size img {
+  margin-top: 8%;
+  height: 450px;
+  filter: grayscale(1);
+  transition: all 0.5s ease;
+}
+
+.img-size img:hover {
+  filter: grayscale(0);
+  transform: scale(1.1);
+  cursor: pointer;
+}
