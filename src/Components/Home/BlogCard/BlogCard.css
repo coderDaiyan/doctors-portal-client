@@ -1,0 +1,16 @@
+.blog__card {
+  width: 300px;
+  height: 370px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 3px 7px 22px 3px rgba(179, 175, 179, 0.7);
+  transition: 0.3s all ease-in-out !important;
+}
+.blog__card:hover {
+  cursor: pointer;
+  background: url("../../../assets/images/quote.png"),
+    linear-gradient(75deg, #19d3ae, #0fcfec);
+  background-position: center right;
+  background-repeat: no-repeat;
+  color: #fff !important;
+}
