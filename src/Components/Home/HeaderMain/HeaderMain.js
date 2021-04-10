@@ -17,7 +17,7 @@ const HeaderMain = () => {
           at pariatur quaerat consequatur labore.
         </p>
         <button
-          style={{ background: "linear-gradient(90deg, #19D3AF,#0FCFEB)" }}
+          style={{ background: "var(--gradient-color)" }}
           className="btn appointment-btn text-white"
         >
           Get Appointment

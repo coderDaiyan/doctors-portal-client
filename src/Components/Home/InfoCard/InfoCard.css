@@ -1,0 +1,11 @@
+.info__card {
+  height: 150px;
+  margin: 10px;
+  margin-top: -30px;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+.icon {
+  font-size: 70px;
+}
