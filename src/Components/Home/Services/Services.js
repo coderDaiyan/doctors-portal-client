@@ -27,7 +27,7 @@ const Services = () => {
     },
   ];
   return (
-    <section className="services-container">
+    <section data-aos="zoom-in" className="services-container">
       <div className="text-center">
         <h5 style={{ color: "var(--text-color-green)" }}>OUR SERVICES</h5>
         <h2 className="fw-bold" style={{ color: "var(--text-color-dark)" }}>

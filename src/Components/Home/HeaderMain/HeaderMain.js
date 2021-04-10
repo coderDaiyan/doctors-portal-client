@@ -5,6 +5,7 @@ import "./HeaderMain.css";
 const HeaderMain = () => {
   return (
     <main
+      data-aos="zoom-in"
       style={{ height: "600px", width: "1232px" }}
       className="row d-flex align-items-center main-heder"
     >

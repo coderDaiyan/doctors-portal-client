@@ -4,7 +4,7 @@ import "./FeaturedService.css";
 
 const FeaturedService = () => {
   return (
-    <section className="featured__service">
+    <section data-aos="zoom-in-up" className="featured__service">
       <div className="row">
         <div className="col-md-4 img-size">
           <img className="service-img" src={Appoinment} alt="" />

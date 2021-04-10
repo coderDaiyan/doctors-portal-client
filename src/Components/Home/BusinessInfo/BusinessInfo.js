@@ -28,7 +28,7 @@ const BusinessInfo = () => {
     },
   ];
   return (
-    <section className="row d-flex justify-content-center">
+    <section data-aos="fade-up" className="row d-flex justify-content-center">
       {infoData.map((info) => (
         <InfoCard info={info} />
       ))}
