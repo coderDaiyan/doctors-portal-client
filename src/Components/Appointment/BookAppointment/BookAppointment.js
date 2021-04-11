@@ -47,7 +47,7 @@ const BookAppointment = ({ selectedDate }) => {
       <br />
       <div className="row d-flex justify-content-center align-items-center">
         {bookingData.map((booking) => (
-          <BookAppointmentCard booking={booking} />
+          <BookAppointmentCard selectedDate={selectedDate} booking={booking} />
         ))}
       </div>
     </section>

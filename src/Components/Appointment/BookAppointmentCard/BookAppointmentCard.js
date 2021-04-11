@@ -2,7 +2,7 @@ import React from "react";
 import AppointmentForm from "../AppointmentForm/AppointmentForm";
 import "./BookAppointmentCard.css";
 
-const BookAppointmentCard = ({ booking }) => {
+const BookAppointmentCard = ({ booking, selectedDate }) => {
   const { subject, visitingHour, totalSits } = booking;
 
   const [modalIsOpen, setIsOpen] = React.useState(false);
@@ -31,7 +31,12 @@ const BookAppointmentCard = ({ booking }) => {
         >
           Book Appointment
         </button>
-        <AppointmentForm modalIsOpen={modalIsOpen} closeModal={closeModal} />
+        <AppointmentForm
+          selectedDate={selectedDate}
+          modalIsOpen={modalIsOpen}
+          closeModal={closeModal}
+          subject={subject}
+        />
       </div>
     </div>
   );
