@@ -1,0 +1,14 @@
+.booking_card {
+  text-align: center;
+  width: 350px;
+  height: 250px;
+  padding: 20px;
+  display: grid;
+  place-items: center;
+  margin: 20px;
+  box-shadow: 0 1.3px 5.3px rgba(0, 0, 0, 0.073),
+    0 4.5px 17.9px rgba(0, 0, 0, 0.107), 0 20px 80px rgba(0, 0, 0, 0.18);
+}
+.card {
+  border: none;
+}
