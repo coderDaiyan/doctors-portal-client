@@ -1,5 +1,8 @@
 .contact__section {
   margin: 130px 0 0 0;
-  padding: 50px;
-  background: var(--text-color-dark);
+  padding: 150px;
+  height: 700px;
+  background-image: linear-gradient(#3a4256dc, #3a4256ce),
+    url("../../../assets/images/header-bg.png");
+  background-size: 100% 100%;
 }

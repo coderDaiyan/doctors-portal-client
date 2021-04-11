@@ -4,7 +4,7 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <>
-      <section className="contact__section">
+      <section data-aos="zoom-in-right" className="contact__section">
         <h3
           className="fw-bold"
           style={{ color: "var(--text-color-green)", textAlign: "center" }}
@@ -31,12 +31,22 @@ const Contact = () => {
           </div>
           <div class="mb-3">
             <textarea
+              style={{ resize: "none" }}
               class="form-control"
               id="exampleFormControlTextarea1"
-              rows="7"
+              rows="8"
               placeholder="Your Message*"
             ></textarea>
           </div>{" "}
+          <br />
+          <div className="d-flex justify-content-center align-items-center">
+            <button
+              style={{ background: "var(--gradient-color)", width: "180px" }}
+              className="btn text-white"
+            >
+              SUBMIT
+            </button>
+          </div>
         </div>
       </section>
     </>
