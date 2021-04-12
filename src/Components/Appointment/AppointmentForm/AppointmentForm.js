@@ -2,6 +2,7 @@ import moment from "moment";
 import React from "react";
 import { useForm } from "react-hook-form";
 import Modal from "react-modal";
+import swal from "sweetalert";
 
 const customStyles = {
   content: {
@@ -28,9 +29,27 @@ const AppointmentForm = ({
     handleSubmit,
     formState: { errors },
   } = useForm();
+
   const onSubmit = (data) => {
-    console.log(data);
-    closeModal();
+    data.service = subject;
+    data.date = selectedDate;
+    data.created = moment(new Date()).format("MMMM Do YYYY, h:mm:ss a");
+    fetch("http://localhost:5000/addAppointment", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(data),
+    })
+      .then((res) => res.json())
+      .then((success) => {
+        if (success) {
+          swal(
+            "Success!",
+            `You booked an appointment on ${data.service}!`,
+            "success"
+          );
+          closeModal();
+        }
+      });
   };
   return (
     <>
