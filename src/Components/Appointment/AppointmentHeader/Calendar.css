@@ -5,6 +5,11 @@ button {
   background-color: white;
   padding: 10px;
 }
+.calendar__section button:hover {
+  background: linear-gradient(90deg, #19d3ae9c, #0fceeba4);
+  border-radius: 10px;
+  color: white;
+}
 .calendar__section button:focus {
   background: var(--gradient-color);
   color: white;

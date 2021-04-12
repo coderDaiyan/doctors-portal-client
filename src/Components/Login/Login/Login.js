@@ -3,9 +3,15 @@ import LoginBG from "../../../assets/images/login-bg.png";
 import "./Login.css";
 
 const Login = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  };
   return (
     <>
-      <section style={{ height: "100vh", overflow: "hidden" }}>
+      <section
+        onSubmit={handleSubmit}
+        style={{ height: "100vh", overflow: "hidden" }}
+      >
         <div className="row parent">
           <h2
             className="fw-bold"
@@ -13,7 +19,7 @@ const Login = () => {
           >
             Login
           </h2>
-          <div className="col-md-4 form">
+          <div className="col-md-4 login_form">
             <form>
               <div className="mb-3">
                 <label className="text-secondary" htmlFor="emailInput">
@@ -25,6 +31,7 @@ const Login = () => {
                   type="email"
                   name="emailInput"
                   id="emailInput"
+                  required
                 />
               </div>
               <div className="mb-3">
@@ -37,8 +44,15 @@ const Login = () => {
                   type="password"
                   name="passwordInput"
                   id="passwordInput"
+                  required
                 />
               </div>
+              <button
+                style={{ background: "var(--gradient-color)" }}
+                className="btn w-100"
+              >
+                Sign In
+              </button>
             </form>
           </div>
           <div className="col-md-8">
