@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import LoginBG from "../../../assets/images/login-bg.png";
 import "./Login.css";
 
@@ -47,12 +48,17 @@ const Login = () => {
                   required
                 />
               </div>
-              <button
-                style={{ background: "var(--gradient-color)" }}
-                className="btn w-100"
+              <Link
+                to="/dashboard/appointment"
+                style={{ textDecoration: "none", color: "white" }}
               >
-                Sign In
-              </button>
+                <button
+                  style={{ background: "var(--gradient-color)" }}
+                  className="btn w-100"
+                >
+                  Sign In
+                </button>
+              </Link>
             </form>
           </div>
           <div className="col-md-8">

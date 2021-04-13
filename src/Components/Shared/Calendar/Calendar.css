@@ -25,3 +25,15 @@ button {
     0 22.3px 17.9px rgba(0, 0, 0, 0.042), 0 41.8px 33.4px rgba(0, 0, 0, 0.05),
     0 100px 80px rgba(0, 0, 0, 0.07);
 }
+.dashboard_calendar {
+  width: 520px;
+  height: 520px;
+  padding: 30px;
+  background-color: white;
+}
+.dashboard_calendar button {
+  padding: 20px;
+}
+.dashboard_calendar abbr {
+  margin-bottom: 40px;
+}

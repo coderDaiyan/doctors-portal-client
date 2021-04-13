@@ -1,0 +1,11 @@
+.appointments {
+  width: 400px;
+  height: 450px;
+  background-color: rgb(253, 253, 253);
+  box-shadow: 0 12.5px 10px rgba(0, 0, 0, 0.035),
+    0 100px 80px rgba(0, 0, 0, 0.07);
+}
+.table_section {
+  margin: 10px;
+  overflow-y: auto;
+}

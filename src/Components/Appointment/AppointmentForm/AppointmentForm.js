@@ -33,7 +33,7 @@ const AppointmentForm = ({
   const onSubmit = (data) => {
     data.service = subject;
     data.date = selectedDate;
-    data.created = moment(new Date()).format("MMMM Do YYYY, h:mm:ss a");
+    data.created = moment(selectedDate).format("LL");
     fetch("http://localhost:5000/addAppointment", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
